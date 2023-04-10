@@ -1,0 +1,11 @@
+.performanceMain{
+    margin: 50px;
+    display: flex;
+    flex-direction: row ;
+   
+    
+}
+.caseMain{
+    margin-right: 50px;
+    text-align: center;
+}
