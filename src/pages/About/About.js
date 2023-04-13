@@ -3,7 +3,7 @@ import React from "react";
 function About() {
     return (
         <>
-    
+
             <div >
                 <h1>關於宇爵</h1>
                 <blockquote>
@@ -14,7 +14,7 @@ function About() {
                     不斷提升自身的核心競爭力，實現更加健康、可持續、繁榮的發展。
                 </blockquote>
 
-
+         
 
 
             </div>

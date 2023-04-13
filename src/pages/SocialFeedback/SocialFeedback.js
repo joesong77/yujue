@@ -14,24 +14,27 @@ function SocialFeedback() {
                         <ul class="productList">
                             <li class="productItem">
                                 <div class="txt">
-                                    <h3 class="subTitle">在電視上觀賞。</h3>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam minus possimus doloremque? Ipsa iste, laboriosam numquam accusamus error tenetur recusandae, itaque modi ullam placeat aperiam. Assumenda facere aspernatur earum quis!</p>
+                                    <h3 class="subTitle">財團法人臺中市私立向日葵社會福利慈善事業基金會</h3>
+                                    <p>宋文華董事長在向日葵基金會擔任董事，長期關注社會需求，積極參加公益活動</p>
                                 </div>
-                                <img src="https://picsum.photos/400/300?random=4" alt="圖文1"/>
+                                <img src="https://i.imgur.com/Pb0TAXu.jpg" alt="圖文1"/>
+                            </li>
+                          
+                            <li class="productItem">
+                                <div class="txt">
+                                    <h3 class="subTitle">南投縣埔里鎮史港國民小學捐款</h3>
+                                   
+                                </div>
+                                <img src="https://i.imgur.com/A0gpiQV.jpg" alt="圖文1"/>
                             </li>
                             <li class="productItem">
                                 <div class="txt">
-                                    <h3 class="subTitle">下載您的節目以便離線觀賞。</h3>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam minus possimus doloremque? Ipsa iste, laboriosam numquam accusamus error tenetur recusandae, itaque modi ullam placeat aperiam. Assumenda facere aspernatur earum quis!</p>
+                                    <h3 class="subTitle">中華民國退役將官社會服務總會</h3>
+                                    <p>顧問團副團長授證</p>
+                                   
                                 </div>
-                                <img src="https://picsum.photos/400/300?random=5" alt="圖文2"/>
-                            </li>
-                            <li class="productItem">
-                                <div class="txt">
-                                    <h3 class="subTitle">隨處都能觀賞。</h3>
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam minus possimus doloremque? Ipsa iste, laboriosam numquam accusamus error tenetur recusandae, itaque modi ullam placeat aperiam. Assumenda facere aspernatur earum quis!</p>
-                                </div>
-                                <img src="https://picsum.photos/400/300?random=6" alt="圖文3"/>
+
+                                <img src="https://i.imgur.com/FIpiw6N.jpg" alt="圖文1"/>
                             </li>
                         </ul>
                     </div>

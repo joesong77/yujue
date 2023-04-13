@@ -2,7 +2,9 @@
     margin: 50px;
     display: flex;
     flex-direction: row ;
-   
+    flex-wrap: wrap ;
+    width: 100%;
+    overflow: hidden;
     
 }
 .caseMain{
