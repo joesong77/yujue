@@ -11,3 +11,13 @@
     margin-right: 50px;
     text-align: center;
 }
+
+.image-item{
+    display: block;
+    transition: width 2s 1s, height 1s; /*返回的動畫*/
+}
+.image-item:hover {
+    width: 500px;
+    height:450px;
+    transition: width 1s, height 1s; /*開始的動畫*/
+}

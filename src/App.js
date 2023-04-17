@@ -1,11 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AppBar from "./components/AppBar/AppBar"
+import BottomNavigation from "./components/BottomNavigation/BottomNavigation";
 import Home from "./pages/Home/Home"
 import About from "./pages/About/About"
 import Proformance from "./pages/Performance/Performance";
 import SocialFeedback from "./pages/SocialFeedback/SocialFeedback";
-import AppBar from "./components/AppBar/AppBar"
-import BottomNavigation from "./components/BottomNavigation/BottomNavigation";
+import ServiceItem from "./pages/ServiceItem/ServiceItem";
+
 import './App.css'
 
 function App() {
@@ -34,6 +36,9 @@ function App() {
           </Routes>
           <Routes>
             <Route path="/socialFeedback" element={<SocialFeedback />} />
+          </Routes>
+          <Routes>
+            <Route path="/serviceItem" element={<ServiceItem />} />
           </Routes>
           </div>
           <BottomNavigation />

@@ -1,6 +1,8 @@
 import React from 'react';
 import './Performance.css'
-
+import ImageList from '@mui/material/ImageList';
+import ImageListItem from '@mui/material/ImageListItem';
+import ImageListItemBar from '@mui/material/ImageListItemBar';
 function Proformance() {
 
     const caseJson = [
@@ -45,7 +47,7 @@ function Proformance() {
     return (
         <>
             <div className='performanceMain' >
-                {caseJson.map((item) => (
+                {/* {caseJson.map((item) => (
                     <div key={item.id}  className='caseMain'>
 
                         <img src={item.image} width={300} height={200} alt={item.caseName} />
@@ -54,7 +56,27 @@ function Proformance() {
 
 
                     </div>
-                ))}
+                ))} */}
+
+                <ImageList  sx={{ width: 800, height: 450 }} gap={1}>
+
+                    {caseJson.map((item) => (
+                        <ImageListItem key={item.image} className='image-item'>
+                            <img
+                                src={`${item.image}?w=248&fit=crop&auto=format`}
+                                srcSet={`${item.image}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                alt={item.caseName}
+                                loading="lazy"
+                             
+                            />
+                            <ImageListItemBar
+                                title={item.caseName}
+                                subtitle='統包團隊顧問'
+
+                            />
+                        </ImageListItem>
+                    ))}
+                </ImageList>
             </div>
 
         </>
