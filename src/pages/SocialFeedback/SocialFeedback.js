@@ -16,8 +16,10 @@ function SocialFeedback() {
                                 <div class="txt">
                                     <h3 class="subTitle">財團法人臺中市私立向日葵社會福利慈善事業基金會</h3>
                                     <p>宋文華董事長在向日葵基金會擔任董事，長期關注社會需求，積極參加公益活動</p>
+                                    
                                 </div>
                                 <img src="https://i.imgur.com/Pb0TAXu.jpg" alt="圖文1"/>
+
                             </li>
                           
                             <li class="productItem">

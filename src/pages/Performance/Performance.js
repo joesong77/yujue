@@ -3,6 +3,7 @@ import './Performance.css'
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
+
 function Proformance() {
 
     const caseJson = [
@@ -58,16 +59,18 @@ function Proformance() {
                     </div>
                 ))} */}
 
-                <ImageList  sx={{ width: 800, height: 450 }} gap={1}>
+                <ImageList  cols={3}  gap={2} rowHeight={'auto'}className='image-List'>
 
                     {caseJson.map((item) => (
-                        <ImageListItem key={item.image} className='image-item'>
+                        <ImageListItem key={item.image} >
                             <img
                                 src={`${item.image}?w=248&fit=crop&auto=format`}
                                 srcSet={`${item.image}?w=248&fit=crop&auto=format&dpr=2 2x`}
                                 alt={item.caseName}
                                 loading="lazy"
-                             
+                                width={400}
+                                height={150}
+
                             />
                             <ImageListItemBar
                                 title={item.caseName}
@@ -77,6 +80,8 @@ function Proformance() {
                         </ImageListItem>
                     ))}
                 </ImageList>
+
+             
             </div>
 
         </>

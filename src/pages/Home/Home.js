@@ -33,10 +33,10 @@ function Home() {
                     className="swiper"
 
                 >
-                    <SwiperSlide><img src="" alt="a"  width={"100%"} height={"100%"} /></SwiperSlide>
-                    <SwiperSlide><img src="" alt="b" width={"100%"} height={"100%"} /></SwiperSlide>
+                    <SwiperSlide><img src="https://i.imgur.com/D6ClOhf.jpg" alt="a"  width={"100%"} height={"100%"} /></SwiperSlide>
+                    <SwiperSlide><img src="https://i.imgur.com/YFl5b3S.jpg" alt="b" width={"100%"} height={"100%"} /></SwiperSlide>
                     <SwiperSlide>Slide 3</SwiperSlide>
-                    <SwiperSlide>Slide 4</SwiperSlide>
+              
 
                 </Swiper>
                 <div>

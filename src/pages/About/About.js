@@ -1,4 +1,5 @@
 import React from "react";
+import './About.css'
 
 function About() {
     return (
@@ -14,6 +15,16 @@ function About() {
                     不斷提升自身的核心競爭力，實現更加健康、可持續、繁榮的發展。
                 </blockquote>
 
+  
+                <div className="left-menu">
+                   <p>資本額 : 新台幣陸拾萬元整</p> 
+                   <p>統編 : 93778504</p>
+                   <p>地址 : 台中市北屯區軍福十五路</p>
+                   <p>E-mail : yujyueh@gmail.com</p>
+                     
+               
+                </div>
+                
          
 
 
@@ -22,6 +33,5 @@ function About() {
         </>
     )
 }
-
 
 export default About

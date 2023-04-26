@@ -11,13 +11,19 @@
     margin-right: 50px;
     text-align: center;
 }
-
-.image-item{
-    display: block;
-    transition: width 2s 1s, height 1s; /*返回的動畫*/
+.container {
+    height: auto;
+    width: 70%;
+    margin: 0 15%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFF;
+  
 }
-.image-item:hover {
-    width: 500px;
-    height:450px;
-    transition: width 1s, height 1s; /*開始的動畫*/
+  
+.image-List{
+  width: 95%;
+
 }
