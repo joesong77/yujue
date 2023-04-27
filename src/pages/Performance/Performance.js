@@ -3,6 +3,7 @@ import './Performance.css'
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
+import TopicButton from '../../components/TopicButton/TopicButton';
 
 function Proformance() {
 
@@ -47,6 +48,7 @@ function Proformance() {
     ]
     return (
         <>
+         <TopicButton name='工程實績'/>
             <div className='performanceMain' >
                 {/* {caseJson.map((item) => (
                     <div key={item.id}  className='caseMain'>

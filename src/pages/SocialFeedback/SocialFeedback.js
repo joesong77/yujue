@@ -1,9 +1,11 @@
 import React from "react";
 import './SocialFeedback.css'
+import TopicButton from "../../components/TopicButton/TopicButton";
 
 function SocialFeedback() {
     return (
         <>
+          <TopicButton name='社會回饋'/>
 
             <div className="SocialFeedback-main" >
            
@@ -25,6 +27,7 @@ function SocialFeedback() {
                             <li class="productItem">
                                 <div class="txt">
                                     <h3 class="subTitle">南投縣埔里鎮史港國民小學捐款</h3>
+                                    <p>宋文華董事長協助募款，捐助史港國小舞蹈才藝經費</p>
                                    
                                 </div>
                                 <img src="https://i.imgur.com/A0gpiQV.jpg" alt="圖文1"/>
