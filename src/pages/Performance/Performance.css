@@ -1,28 +1,24 @@
 .performanceMain{
-    margin: 50px;
     display: flex;
     flex-direction: row ;
     flex-wrap: wrap ;
     overflow: hidden;
-    
+    margin: 30px;
 }
-.caseMain{
-    margin-right: 50px;
-    text-align: center;
-}
-.container {
-    height: auto;
-    width: 70%;
-    margin: 0 15%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #FFF;
-  
-}
+
+
+
   
 .image-List{
   width: 95%;
 
+}
+
+@media(max-width: 768px){
+
+    .performanceMain {
+       width: 400px;
+      
+    }
+   
 }
