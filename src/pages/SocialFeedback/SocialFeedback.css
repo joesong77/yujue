@@ -35,6 +35,14 @@
         max-width: 600px;
     }
 }
+@media(max-width: 768px){
+
+    .product {
+       margin-right: 50px;
+    }
+   
+}
+
 
 
 /* XX-Large Device */
