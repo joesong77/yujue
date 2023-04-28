@@ -13,8 +13,8 @@
 @media(max-width: 768px){
 
     .footer{
+       text-align: left;
        width: 100%;
-       text-align: center;
        height: 5%;
     
       
