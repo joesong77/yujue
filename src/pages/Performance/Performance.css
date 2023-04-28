@@ -15,9 +15,25 @@
   width: 95%;
 
 }
+.img-List-2-main{
+    text-align: center;
+
+}
+
+@media(min-width: 768px){
+    .image-List-2{
+        display: none;
+    }
+
+   
+   
+}
 
 @media(max-width: 768px){
-
+   
+    .image-List{
+        display:none;
+    }
     .performanceMain {
        width: 400px;
        margin: 10px;
@@ -25,3 +41,4 @@
     }
    
 }
+

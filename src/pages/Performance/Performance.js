@@ -48,7 +48,7 @@ function Proformance() {
     ]
     return (
         <>
-         <TopicButton name='工程實績'/>
+            <TopicButton name='工程實績' />
             <div className='performanceMain' >
                 {/* {caseJson.map((item) => (
                     <div key={item.id}  className='caseMain'>
@@ -60,30 +60,59 @@ function Proformance() {
 
                     </div>
                 ))} */}
+                <div className='image-List'>
 
-                <ImageList  cols={3}  gap={2} rowHeight={'auto'} className='image-List'>
 
-                    {caseJson.map((item) => (
-                        <ImageListItem key={item.image} >
-                            <img
-                                src={`${item.image}?w=248&fit=crop&auto=format`}
-                                srcSet={`${item.image}?w=248&fit=crop&auto=format&dpr=2 2x`}
-                                alt={item.caseName}
-                                loading="lazy"
-                                width={400}
-                                height={150}
+                    <ImageList cols={3} gap={2} rowHeight={'auto'} >
 
-                            />
-                            <ImageListItemBar
-                                title={item.caseName}
-                                subtitle='統包團隊顧問'
+                        {caseJson.map((item) => (
+                            <ImageListItem key={item.image} >
+                                <img
+                                    src={`${item.image}?w=248&fit=crop&auto=format`}
+                                    srcSet={`${item.image}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                    alt={item.caseName}
+                                    loading="lazy"
+                                    width={400}
+                                    height={150}
 
-                            />
-                        </ImageListItem>
-                    ))}
-                </ImageList>
+                                />
+                                <ImageListItemBar
+                                    title={item.caseName}
+                                    subtitle='統包團隊顧問'
 
-             
+                                />
+                            </ImageListItem>
+                        ))}
+                    </ImageList>
+                </div>
+                <div className='image-List-2'>
+
+
+                    <ImageList cols={1} gap={2} rowHeight={'auto'} >
+
+                        {caseJson.map((item) => (
+                            <ImageListItem key={item.image} >
+                                <img
+                                    src={`${item.image}?w=248&fit=crop&auto=format`}
+                                    srcSet={`${item.image}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                    alt={item.caseName}
+                                    loading="lazy"
+                                    width={400}
+                                    height={150}
+
+                                />
+                                <ImageListItemBar
+                                    title={item.caseName}
+                                    subtitle='統包團隊顧問'
+
+                                />
+                            </ImageListItem>
+                        ))}
+                    </ImageList>
+
+                </div>
+
+
             </div>
 
         </>
