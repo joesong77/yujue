@@ -13,7 +13,9 @@
 @media(max-width: 768px){
 
     .footer{
-        display: none;
+       width: 100%;
+       text-align: center;
+       height: 5%;
     
       
     }
