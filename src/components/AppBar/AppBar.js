@@ -17,6 +17,7 @@ import AppBar from '@mui/material/AppBar';
 import Drawer from '@mui/material/Drawer';
 import './AppBar.css'
 
+
 export default function ButtonAppBar() {
     const [state, setState] = React.useState({
         top: false,
@@ -75,7 +76,7 @@ export default function ButtonAppBar() {
       );
     return (
         <Box sx={{ flexGrow: 1 }} >
-            <AppBar position="static" className='appbar' sx={{ bgcolor: "rgba(255,255,255,0.2)" }} >
+            <AppBar position="static" className='appbar' sx={{ bgcolor: "rgba(255,255,255,0.2)", }} >
 
                 <Toolbar>
                     <IconButton

@@ -97,7 +97,7 @@ function Proformance() {
                                     srcSet={`${item.image}?w=248&fit=crop&auto=format&dpr=2 2x`}
                                     alt={item.caseName}
                                     loading="lazy"
-                                    width={400}
+                                    width={350}
                                     height={150}
 
                                 />
@@ -106,8 +106,12 @@ function Proformance() {
                                     subtitle='統包團隊顧問'
 
                                 />
+                             
                             </ImageListItem>
+                     
+                        
                         ))}
+                           
                     </ImageList>
 
                 </div>

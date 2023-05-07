@@ -8,3 +8,54 @@
   text-align: center;
   margin-top: 150px;
 }
+
+.ServiceItem-imgList{
+  justify-content: center;    
+  /* 垂直置中 */
+  align-content: center;  
+  position: relative;
+  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+div.ServiceItem-imgList-container{
+
+  
+  width:400px;
+
+}
+/* .ServiceItem-imgList-container:hover  {
+
+  display: block;
+  width:600px;
+
+} */
+.ServiceItem-imgList-img{
+
+  
+  width: 300px;
+  height:300px;
+
+}
+/* .ServiceItem-imgList-img:hover{
+
+  
+  width: 400px;
+  height:300px;
+
+} */
+
+.ServiceItem-imgList-tip{
+  position: absolute;
+  top:0;
+  writing-mode: vertical-lr;
+  font-size: 30px;
+  background-color: #708090;
+  height: 200px;
+
+}
+.ServiceItem-imgList-txt{
+ width: 300px;
+
+}

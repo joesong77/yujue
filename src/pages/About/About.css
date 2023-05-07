@@ -1,5 +1,19 @@
 .left-menu{
-    padding: 40px;
+    padding: 20px;
+}
+.about-article{
+  padding:25px;
+
+}
+
+.about-article.p{
+  text-indent: 1em;
+  line-height: 1.5;
+  text-indent: 32px;
+}
+.about-organize{
+  text-align: center;
+
 }
 /* h1{
     
