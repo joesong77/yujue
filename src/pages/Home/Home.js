@@ -20,8 +20,8 @@ function Home() {
     const newJson = [
         {
             id: 1,
-            image: "https://i.imgur.com/8oE9YnB.jpg",
-            caseName: "后里營區工地－基礎工程",
+            image: "https://i.imgur.com/Km7VyBC.jpg",
+            caseName: "賀！宇爵董事長新任台中向日葵理事長",
         },
         {
             id: 2,
