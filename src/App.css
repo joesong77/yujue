@@ -7,6 +7,7 @@
  margin: 0;
 }
 .wrapper{
+  margin-top: 60px;
   min-height: 100%; /*外層高度100%*/
   margin-bottom: -100px; /*隨footer高度需做調整*/
 }

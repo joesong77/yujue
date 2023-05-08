@@ -75,8 +75,8 @@ export default function ButtonAppBar() {
         </Box>
       );
     return (
-        <Box sx={{ flexGrow: 1 }} >
-            <AppBar position="static" className='appbar' sx={{ bgcolor: "rgba(255,255,255,0.2)", }} >
+        <Box sx={{ flexGrow: 2 }} >
+            <AppBar position="fixed" className='appbar' sx={{ bgcolor: "#ffffff" }}  >
 
                 <Toolbar>
                     <IconButton
