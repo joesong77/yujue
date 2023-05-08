@@ -59,3 +59,17 @@ div.ServiceItem-imgList-container{
  width: 300px;
 
 }
+
+@media(max-width: 768px){
+  .ServiceItem-imgList-tip{
+    font-size: 30px;
+    position: relative;
+    writing-mode: horizontal-tb;
+    background-color: #708090;
+    height: 50px;
+  
+  
+  }
+  
+}
+

@@ -30,7 +30,7 @@ function About() {
                         <div>
                             組織架構圖
                         </div>
-                        <img src="https://i.imgur.com/QT8EAyN.jpg" alt="宇爵工程組織架構圖" width={500} height={600}  />
+                        <img src="https://i.imgur.com/QT8EAyN.jpg" alt="宇爵工程組織架構圖" className="about-organize-img" />
                 
 
                     </div>
