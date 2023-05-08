@@ -20,13 +20,13 @@ function Home() {
     const newJson = [
         {
             id: 1,
-            image: "https://i.imgur.com/Km7VyBC.jpg",
+            image: "https://i.imgur.com/F0xQc7i.jpg",
             caseName: "賀！宇爵董事長新任台中向日葵董事",
         },
         {
             id: 2,
-            image: "https://i.imgur.com/Km7VyBC.jpg",
-            caseName: "賀！宇爵董事長新任台中向日葵董事",
+            image: "https://i.imgur.com/QQh2klE.jpg",
+            caseName: "參加2023台灣盃極限射擊大賽活動－退將協會",
         },
         {
             id: 3,
