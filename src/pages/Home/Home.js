@@ -107,7 +107,7 @@ function Home() {
                     </div>
                     <div className="about-right">
 
-                        <img src="https://i.imgur.com/IWuiv1o.jpg" alt="工程圖" width={480} height={400} className="about-right-img" />
+                        <img src="https://i.imgur.com/yVrhVbT.jpg" alt="工程圖" width={480} height={400} className="about-right-img" />
                     </div>
 
 
