@@ -48,16 +48,7 @@
     border-color: #348498;
     font-size: 14px;
 }
-.about-list-title-Rwd{
-    display:none;
-}
-.about-list-txt{
-    text-indent: '2em';
-    padding: '1em';
-    font-size: 20px;
-    background-color: #ccc;
-    margin-right: 20px;
-}
+
 .about-flex{
     display: flex;
 
@@ -66,6 +57,18 @@
 }
 .about{
     padding: 50px;
+}
+.about-list-title-Rwd{
+    display:none;
+}
+.about-list-txt{
+    text-indent: '2em';
+    padding: 20px;
+    font-size: 20px;
+    background-color: #ccc;
+    margin-right: 20px;
+  
+
 }
 .about-btn{
     border-radius: 20px;

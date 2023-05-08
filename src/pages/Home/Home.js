@@ -20,18 +20,18 @@ function Home() {
     const newJson = [
         {
             id: 1,
-            image: "https://i.imgur.com/rzHBV8V.jpg",
-            caseName: "賀！宇爵董事長新任台中向日葵理事長",
+            image: "https://i.imgur.com/8oE9YnB.jpg",
+            caseName: "后里營區工地－基礎工程",
         },
         {
             id: 2,
-            image: "https://i.imgur.com/W2SC2mj.jpg",
+            image: "https://i.imgur.com/Km7VyBC.jpg",
             caseName: "賀！宇爵董事長新任台中向日葵理事長",
         },
         {
             id: 3,
-            image: "https://i.imgur.com/8COfysH.jpg",
-            caseName: "賀！宇爵董事長新任台中向日葵理事長",
+            image: "https://i.imgur.com/aq9BUSt.jpg",
+            caseName: "捐贈母校新興國小70週年校慶活動經費",
         },
 
 
@@ -79,9 +79,6 @@ function Home() {
                         <img src={item.image} alt="aaa" width={300} height={200} />
                         <p>{item.caseName}</p>
                         <button className="news-image-list-btn">閱讀更多</button>
-
-
-
                     </div>
                 ))}
 
@@ -91,9 +88,9 @@ function Home() {
 
                 <div className="about-flex">
                     <div className="about-list">
-                        
-                        
-                
+
+
+
                         <Typography variant="h4" gutterBottom>
                             關於宇爵
                         </Typography>
@@ -102,7 +99,9 @@ function Home() {
                             協助他們在工程項目中達成成功。
                         </div>
                         <br />
-                        <button className="about-btn" >公司沿革</button>
+                        <a href="/about">
+                        <button className="about-btn"  >公司沿革</button>
+                        </a>
 
 
                     </div>

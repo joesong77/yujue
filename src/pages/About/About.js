@@ -1,7 +1,7 @@
 import React from "react";
 import './About.css'
 import TopicButton from "../../components/TopicButton/TopicButton";
-import Typography from '@mui/material/Typography';
+
 
 
 
@@ -27,10 +27,10 @@ function About() {
                     <br />
 
                     <div className="about-organize">
-                        <Typography variant="h6" gutterBottom>
+                        <div>
                             組織架構圖
-                        </Typography>
-                        <img src="https://i.imgur.com/8dtsucx.jpg" alt="工程圖" width={500} height={600}  />
+                        </div>
+                        <img src="https://i.imgur.com/QT8EAyN.jpg" alt="宇爵工程組織架構圖" width={500} height={600}  />
                 
 
                     </div>
