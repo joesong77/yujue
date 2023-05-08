@@ -21,12 +21,12 @@ function Home() {
         {
             id: 1,
             image: "https://i.imgur.com/Km7VyBC.jpg",
-            caseName: "賀！宇爵董事長新任台中向日葵理事長",
+            caseName: "賀！宇爵董事長新任台中向日葵董事",
         },
         {
             id: 2,
             image: "https://i.imgur.com/Km7VyBC.jpg",
-            caseName: "賀！宇爵董事長新任台中向日葵理事長",
+            caseName: "賀！宇爵董事長新任台中向日葵董事",
         },
         {
             id: 3,
