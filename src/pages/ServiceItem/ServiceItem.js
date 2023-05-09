@@ -6,36 +6,71 @@ import TopicButton from "../../components/TopicButton/TopicButton";
 
 
 function ServiceItem() {
-    const  DataJson = [
-       
+    const DataJson = [
+
         {
             id: 1,
             image: "https://i.imgur.com/rpnylU3.png",
             Title: "業主顧問-發包",
-            Text:"專案開發⎟可行性研究⎟專案管理⎟主計畫規劃⎟總顧問⎟工程規劃"
-            
-    
+            Text: [{
+                Itext: "專案開發"
+            }, {
+                Itext: "可行性研究"
+            }, {
+                Itext: "專案管理"
+            }, {
+                Itext: "主計畫規劃"
+            }, {
+                Itext: "總顧問"
+            }, {
+                Itext: "工程規劃"
+            }]
+
+
         },
         {
             id: 2,
             image: "https://i.imgur.com/E3YWIOy.png",
             Title: "業主顧問-設計",
-            Text:"基本設計⎟細部設計⎟設計覆核"
+            Text: [{
+                Itext: "設計顧問"
+            }, {
+                Itext: "監造顧問"
+            }, {
+                Itext: "環境影響評估顧問"
+            }]
         },
         {
+
             id: 3,
             image: "https://i.imgur.com/gV4NJ1I.png",
             Title: "業主顧問-施工",
-            Text:"營建管理⎟施工監造⎟計畫管理⎟風險管理⎟工程現況評估⎟現場試驗及實驗室試驗模擬分析⎟現場儀器裝設及監測⎟營運測試⎟環境影響評估⎟設施管理諮詢⎟工址踏勘及調查"
+            Text: [{
+                Itext: "營建管理"
+            }, {
+                Itext: "施工監造"
+            }, {
+                Itext: "計畫管理"
+            }, {
+                Itext: "風險管理"
+            }, {
+                Itext: "工程現況評估"
+            }, {
+                Itext: "營運測試"
+            }, {
+                Itext: "設施管理諮詢"
+            }, {
+                Itext: "工址踏勘及調查"
+            }]
         },
-       
-       
+
+
 
     ]
     return (
         <>
-        <TopicButton name='服務項目'/>
-     
+            <TopicButton name='服務項目' />
+
             {/* <div className="ServiceItem-main" >
                   {DataJson.map((item) => (
                 <div>
@@ -48,21 +83,34 @@ function ServiceItem() {
 
 
             </div> */}
-            <br/>
-            <br/>
+            <br />
+            <br />
             <div className="ServiceItem-imgList">
 
-              {DataJson.map((item) => (
-                <div className="ServiceItem-imgList-container">
-                <img src={item.image} alt="aa"    className="ServiceItem-imgList-img" />
-                <p className="ServiceItem-imgList-tip">
-                    {item.Title}
-                </p>
-                <p className="ServiceItem-imgList-txt"> {item.Text}</p>
+                {DataJson.map((item) => (
+                    <div className="ServiceItem-imgList-container">
+                        <img src={item.image} alt="aa" className="ServiceItem-imgList-img" />
+                        <p className="ServiceItem-imgList-tip">
+                            {item.Title}
+                        </p>
+                        {item.Text.map((item2)=> (
+                        <div className="ServiceItem-imgList-txt">
+                            
 
-                </div>
+                            <ul>
+                                <li>
+                                    {item2.Itext}
+                                    
+                                </li>
+                            </ul>
+                        </div>
+                          ))}
 
-              ))}
+
+                    </div>
+
+                ))}
+             
 
             </div>
 

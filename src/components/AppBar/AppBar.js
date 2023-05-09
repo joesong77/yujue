@@ -62,7 +62,7 @@ export default function ButtonAppBar() {
               </ListItem>
               <ListItem component="a" href="/socialFeedback" disablePadding sx={{color:'#000000'}}>
                 <ListItemButton>
-                  <ListItemText primary={'社會回饋'}  />
+                  <ListItemText primary={'公益活動'}  />
                 </ListItemButton>
               </ListItem>
 
@@ -100,7 +100,7 @@ export default function ButtonAppBar() {
                             <Tab label="關於宇爵" href="/about" sx={{ fontFamily: "Noto Sans TC", color: '#000000' }} />
                             <Tab label="工程實績" href="/proformance" sx={{ fontFamily: "Noto Sans TC", color: '#000000' }} />
                             <Tab label="服務項目" href='/serviceItem' sx={{ fontFamily: "Noto Sans TC", color: '#000000' }} />
-                            <Tab label="社會回饋" href="/socialFeedback" sx={{ fontFamily: "Noto Sans TC", color: '#000000' }} />
+                            <Tab label="公益活動" href="/socialFeedback" sx={{ fontFamily: "Noto Sans TC", color: '#000000' }} />
                         </Tabs>
                     </Box>
                     <React.Fragment key='left' >

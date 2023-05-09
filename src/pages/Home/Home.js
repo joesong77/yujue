@@ -73,14 +73,38 @@ function Home() {
             </div>
 
             <div className="news-main" >
-                {newJson.map((item) => (
 
-                    <div className="news-image-list">
-                        <img src={item.image} alt="aaa" width={300} height={200} />
-                        <p>{item.caseName}</p>
-                        <button className="news-image-list-btn">閱讀更多</button>
-                    </div>
-                ))}
+                <Swiper
+                    // install Swiper modules
+
+                    spaceBetween={20}
+                    slidesPerView={3}
+                    onSwiper={(swiper) => console.log(swiper)}
+                    onSlideChange={() => console.log('slide change')}
+                    className="swiper"
+
+                >
+                    {newJson.map((item) => (
+                        <SwiperSlide>
+
+
+                            <div className="news-image-list">
+                                <img src={item.image} alt="aaa" className="news-image-list-img" />
+                                <p className="news-image-list-txt">{item.caseName}</p>
+                                <button className="news-image-list-btn">閱讀更多</button>
+                            </div>
+
+
+
+
+                        </SwiperSlide>
+                    ))}
+
+                    {/* <SwiperSlide>Slide 3</SwiperSlide> */}
+
+
+                </Swiper>
+
 
             </div>
 
@@ -100,7 +124,7 @@ function Home() {
                         </div>
                         <br />
                         <a href="/about">
-                        <button className="about-btn"  >公司沿革</button>
+                            <button className="about-btn"  >公司沿革</button>
                         </a>
 
 
