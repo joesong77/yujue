@@ -13,7 +13,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import AppBar from '@mui/material/AppBar';
-
+import Avatar from '@mui/material/Avatar';
 import Drawer from '@mui/material/Drawer';
 import './AppBar.css'
 
@@ -88,6 +88,8 @@ export default function ButtonAppBar() {
                     >
 
                     </IconButton>
+                    <Avatar alt="Logo" src="https://i.imgur.com/Jg7dYN1.png"  sx={{marginRight:"10px"}}/>
+
                     <Typography variant="h6" component={Link} to="/" sx={{ textDecoration: 'none', flexGrow: 1, color: '#000000', fontFamily: "cwTeXFangSong" }}>
 
 
