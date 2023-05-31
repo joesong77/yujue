@@ -89,7 +89,7 @@ function Home() {
 
 
                             <div className="news-image-list">
-                                <img src={item.image} alt="aaa" className="news-image-list-img" />
+                                <img src={item.image} alt="最新消息圖示" className="news-image-list-img" />
                                 <p className="news-image-list-txt">{item.caseName}</p>
                                 <button className="news-image-list-btn">閱讀更多</button>
                             </div>
