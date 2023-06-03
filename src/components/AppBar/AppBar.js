@@ -50,11 +50,11 @@ export default function ButtonAppBar() {
                   <ListItemText primary={'關於宇爵'}  />
                 </ListItemButton>
               </ListItem>
-              <ListItem component="a" href="/proformance" disablePadding sx={{color:'#000000'}}>
+              {/* <ListItem component="a" href="/proformance" disablePadding sx={{color:'#000000'}}>
                 <ListItemButton>
                   <ListItemText primary={'工程實績'}  />
                 </ListItemButton>
-              </ListItem>
+              </ListItem> */}
               <ListItem component="a" href="/serviceItem" disablePadding sx={{color:'#000000'}}>
                 <ListItemButton>
                   <ListItemText primary={'服務項目'}  />
@@ -100,7 +100,7 @@ export default function ButtonAppBar() {
 
                         <Tabs aria-label="basic tabs example" >
                             <Tab label="關於宇爵" href="/about" sx={{ fontFamily: "Noto Sans TC", color: '#000000' }} />
-                            <Tab label="工程實績" href="/proformance" sx={{ fontFamily: "Noto Sans TC", color: '#000000' }} />
+                            {/* <Tab label="工程實績" href="/proformance" sx={{ fontFamily: "Noto Sans TC", color: '#000000' }} /> */}
                             <Tab label="服務項目" href='/serviceItem' sx={{ fontFamily: "Noto Sans TC", color: '#000000' }} />
                             <Tab label="公益活動" href="/socialFeedback" sx={{ fontFamily: "Noto Sans TC", color: '#000000' }} />
                         </Tabs>
