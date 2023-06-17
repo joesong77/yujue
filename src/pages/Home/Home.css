@@ -50,9 +50,14 @@
     width: 150px;
     height: 40px;
     background-color: #348498;
-    color: #ffffff;
     border-color: #348498;
     font-size: 14px;
+
+}
+.news-image-list-a{
+    text-decoration:none;
+    color: #ffffff;
+  
 }
 
 .about-flex{
@@ -73,6 +78,7 @@
     font-size: 20px;
     background-color: #ccc;
     margin-right: 20px;
+    border-radius: 20px;
   
 
 }

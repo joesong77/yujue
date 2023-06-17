@@ -22,17 +22,26 @@ function Home() {
             id: 1,
             image: "https://i.imgur.com/F0xQc7i.jpg",
             caseName: "賀！宇爵董事長新任台中向日葵董事",
+            link: "/socialFeedback/#a1"
         },
         {
             id: 2,
-            image: "https://i.imgur.com/QQh2klE.jpg",
-            caseName: "參加2023台灣盃極限射擊大賽活動－退將協會",
+            image: "https://i.imgur.com/A0gpiQV.jpg",
+            caseName: "南投縣埔里鎮史港國民小學捐款",
+            link: "/socialFeedback/#a2"
         },
         {
             id: 3,
             image: "https://i.imgur.com/aq9BUSt.jpg",
             caseName: "捐贈母校新興國小70週年校慶活動經費",
         },
+        {
+            id: 4,
+            image: "https://i.imgur.com/FIpiw6N.jpg",
+            caseName: "中華民國退役將官社會服務總會",
+            link: "/socialFeedback/#a3"
+        },
+
 
 
     ]
@@ -91,7 +100,10 @@ function Home() {
                             <div className="news-image-list">
                                 <img src={item.image} alt="最新消息圖示" className="news-image-list-img" />
                                 <p className="news-image-list-txt">{item.caseName}</p>
-                                <button className="news-image-list-btn">閱讀更多</button>
+                                <button className="news-image-list-btn" >
+                                    <a href={item.link} className="news-image-list-a" >
+                                        閱讀更多</a>
+                                </button>
                             </div>
 
 
@@ -119,8 +131,8 @@ function Home() {
                             關於宇爵
                         </Typography>
                         <div className="about-list-txt">
-                            提供專業營建、機電、空調工程等工程方面的諮詢服務公司，其主要目的是為客戶提供專業建議和技術支援，
-                            協助他們在工程項目中達成成功。
+
+                            專業工程顧問，提供營建、機電、空調工程諮詢服務。致力於技術創新、擴大業務領域，為客戶提供全面解決方案。推動科技創新、人才培養，實現可持續發展。
                         </div>
                         <br />
                         <a href="/about">
