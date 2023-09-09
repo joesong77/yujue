@@ -27,7 +27,7 @@ function Home() {
           {
             id: 1,
             image: "https://i.imgur.com/FIpiw6N.jpg",
-            caseName: "中華民國退役將官社會服務總會",
+            caseName: "中華民國退役將官社會服務總會頒證",
             link: "/socialFeedback/#a3"
         },
 
