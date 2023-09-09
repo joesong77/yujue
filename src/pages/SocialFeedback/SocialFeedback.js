@@ -35,11 +35,22 @@ function SocialFeedback() {
                             <li class="productItem" id="a3">
                                 <div class="txt">
                                     <h3 class="subTitle">中華民國退役將官社會服務總會</h3>
-                                    <p>顧問團副團長授證</p>
+                                    <p>總會長楊學仁中將頒贈榮譽狀-顧問團副團長</p>
                                    
                                 </div>
 
                                 <img src="https://i.imgur.com/FIpiw6N.jpg" alt="圖文1"/>
+                            </li>
+                            <li class="productItem" id="a4">
+                                <div class="txt">
+                                    <h3 class="subTitle">財團法人榮民榮眷基金會</h3>
+                                    <p>祕書長李世國將軍，頒贈感謝狀</p>
+
+                                <img src="https://i.imgur.com/1TajVhB.jpg" alt="圖文1"/>
+                                   
+                                </div>
+
+                                <img src="https://i.imgur.com/YcuRgmX.jpg" alt="圖文1"/>
                             </li>
                         </ul>
                     </div>
