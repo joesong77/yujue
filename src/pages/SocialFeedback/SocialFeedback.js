@@ -52,6 +52,20 @@ function SocialFeedback() {
 
                                 <img src="https://i.imgur.com/YcuRgmX.jpg" alt="圖文1"/>
                             </li>
+                            <li class="productItem" id="a5">
+                                <div class="txt">
+                                    <h3 class="subTitle">臺中市後備指揮部</h3>
+                                    <p>後備指揮官李育霖上校，頒贈感謝狀</p>
+
+                                    <p>協助本部推動各項全民國防工作，支持國防事務</p>
+
+                                    <img src="https://i.imgur.com/rGiR8CI.jpg" alt="圖文1"/>
+
+                                   
+                                </div>
+
+                                <img src="https://i.imgur.com/tZurWZF.jpg" alt="圖文1"/>
+                            </li>
                         </ul>
                     </div>
                 </section>
