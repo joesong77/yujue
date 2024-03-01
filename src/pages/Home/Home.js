@@ -20,7 +20,7 @@ function Home() {
     const newJson = [
         {
             id: 0,
-            image: "https://i.imgur.com/c6Kr66F.jpg",
+            image: "https://i.imgur.com/aPAVjuf.jpg",
             caseName: "台中後備指揮部頒證",
             link: "/socialFeedback/#a5"
         },
@@ -39,7 +39,7 @@ function Home() {
 
         {
             id: 3,
-            image: "https://i.imgur.com/F0xQc7i.jpg",
+            image: "https://i.imgur.com/DO3rYmD.jpg",
             caseName: "賀！董事長新任臺中向日葵董事",
             link: "/socialFeedback/#a1"
         },
