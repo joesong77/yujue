@@ -16,9 +16,13 @@
     align-items: center;
 }
 .productItem .txt{
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
     line-height: 30px;
 }
 .productItem .txt,
+
+
 .productItem img{
     width: 100%;
     max-width: 400px;
@@ -26,6 +30,7 @@
 
 /* Medium Device */
 @media(min-width: 768px){
+
     .introItem .txt,
     .introItem img{
         max-width: 600px;
@@ -36,6 +41,9 @@
     }
 }
 @media(max-width: 768px){
+    .productItem .txt{
+        box-shadow: none;
+    }
 
     .product {
        margin-right: 50px;
@@ -47,6 +55,7 @@
 
 /* XX-Large Device */
 @media(min-width: 1400px){
+   
     .product{
         overflow: hidden;
     }

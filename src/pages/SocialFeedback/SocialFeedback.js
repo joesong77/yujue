@@ -3,7 +3,7 @@ import './SocialFeedback.css'
 import TopicButton from "../../components/TopicButton/TopicButton";
 
 function SocialFeedback() {
-  
+
 
     return (
         <>
@@ -48,7 +48,9 @@ function SocialFeedback() {
                                     <h3 class="subTitle">財團法人榮民榮眷基金會</h3>
                                     <p>祕書長李世國將軍，頒贈感謝狀</p>
 
+
                                     <img src="https://i.imgur.com/1TajVhB.jpg" alt="圖文1" />
+
 
                                 </div>
 
@@ -61,8 +63,12 @@ function SocialFeedback() {
 
                                     <p>協助本部推動各項全民國防工作，支持國防事務</p>
 
-                                    <img src="https://i.imgur.com/rGiR8CI.jpg" alt="圖文1" className="myImage" />
-                                    <div class="zoom" className="myZoom"></div>
+
+                                    <img src="https://i.imgur.com/rGiR8CI.jpg" alt="圖文1" />
+
+
+
+
 
 
                                 </div>
