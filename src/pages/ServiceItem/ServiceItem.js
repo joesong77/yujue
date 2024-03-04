@@ -60,7 +60,7 @@ function ServiceItem() {
             }, {
                 Itext: "設施管理諮詢"
             }, {
-                Itext: "工址踏勘及調查"
+                Itext: "工地現勘及調查"
             }]
         },
 

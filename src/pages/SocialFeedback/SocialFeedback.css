@@ -16,9 +16,13 @@
     align-items: center;
 }
 .productItem .txt{
-
+    line-height: 30px;
+}
+.productItem .txt .txt_1{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
     line-height: 30px;
+    padding:10px;
+
 }
 .productItem .txt,
 
@@ -41,7 +45,7 @@
     }
 }
 @media(max-width: 768px){
-    .productItem .txt{
+    .productItem .txt .txt_1{
         box-shadow: none;
     }
 
