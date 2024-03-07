@@ -89,6 +89,27 @@ function SocialFeedback() {
 
                                 <img src="https://i.imgur.com/aPAVjuf.jpg" alt="圖文1" />
                             </li>
+                            <li class="productItem" id="a6">
+                                <div class="txt">
+                                    <div class="txt_1">
+                                        <h3 class="subTitle">臺中市榮民服務處</h3>
+                                        <p>陳宗貴處長，頒贈感謝狀</p>
+                                        <p>慷慨捐助認養榮民遺孤，贊助知情</p>
+                                    </div>
+                                    <br></br>
+
+
+                                    <img src="https://i.imgur.com/R1tt6Lf.jpg" alt="圖文1" />
+
+
+
+
+
+
+                                </div>
+
+                                <img src="https://i.imgur.com/N4DneXd.jpg" alt="圖文1" />
+                            </li>
                         </ul>
                     </div>
                 </section>
