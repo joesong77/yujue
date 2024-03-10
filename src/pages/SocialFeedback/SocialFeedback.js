@@ -94,7 +94,7 @@ function SocialFeedback() {
                                     <div class="txt_1">
                                         <h3 class="subTitle">臺中市榮民服務處</h3>
                                         <p>陳宗貴處長，頒贈感謝狀</p>
-                                        <p>慷慨捐助認養榮民遺孤，贊助知情</p>
+                                        <p>慷慨捐助認養榮民遺孤，贊助之情</p>
                                     </div>
                                     <br></br>
 
