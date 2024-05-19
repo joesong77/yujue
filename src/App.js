@@ -20,9 +20,7 @@ function App() {
 
 
           <AppBar />
-          <div className="wrapper">
-          <div className="content">
-
+    
          
           <Routes>
             <Route path="/" element={<Home />} />
@@ -40,10 +38,13 @@ function App() {
           <Routes>
             <Route path="/serviceItem" element={<ServiceItem />} />
           </Routes>
-          </div>
+         
+        
           <BottomNavigation />
-        </div>
-      </div>
+
+        
+        
+          </div>
 
     </Router>
   );

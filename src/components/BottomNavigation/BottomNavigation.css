@@ -1,31 +1,21 @@
-.footer{
+.footer_color{
     background-color:#6b778d;
     width: 100%;
     color: white;
     padding: 20px;
-    height: 95px;
+    height: 100%;
     text-align: center;
 
-  
     
 }
-.footer2{
-    display:none;
-    
-}
+
 @media(max-width: 768px){
 
-    .footer{
+    .footer_color{
         display: none;
       
       
     }
-    .footer2{
-        display: block;
-        background-color:#6b778d;
-        text-align: center;
-        height: 30px;
-        color: white;
-    }
+
    
 }

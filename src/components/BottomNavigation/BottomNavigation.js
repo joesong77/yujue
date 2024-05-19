@@ -6,7 +6,7 @@ function BottomNavigation() {
         <>
 
             <div >
-                <footer class="footer" >
+                <footer class="footer_color" >
 
                     <p>宇爵工程顧問股份有限公司 │ 臺中市北屯區和福路191號15樓之1
                     </p>
@@ -14,12 +14,7 @@ function BottomNavigation() {
                     <p>© Copyright © 2023.宇爵工程顧問有限公司</p>
 
                 </footer>
-                <footer class="footer2" >
-
-                  
-                    <p>© Copyright © 2023.宇爵工程顧問有限公司</p>
-
-                </footer>
+           
 
 
             </div>
