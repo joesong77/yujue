@@ -67,7 +67,7 @@ function SocialFeedback() {
             text1: "將各位捐贈者的愛心善款共募得150萬帶到花蓮，受款單位花蓮縣政府社會局弱勢兒童專戶50萬，花蓮縣家扶中心兒童救助50萬，花蓮縣畢士大教養院孤兒救助50萬，徐蓁蔚縣長親自接待",
             image1: "https://i.imgur.com/0mZGih3.png",
             image: "https://ws.hl.gov.tw/001/Upload/399/relpic/25832/157278/c0af3962-58eb-4146-97ed-7c1d8da3715a.jpg",
-            time: "2024年3月7日"
+            time: "2024年5月7日"
         }
 
     ]
